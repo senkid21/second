@@ -1,0 +1,150 @@
+
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    list-style: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2A2A2A;
+
+    /* border: 1px solid #000000; */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #2A2A2A;;
+}
+.main_logo{
+    margin-left: 0;
+    margin-right: 50px;
+
+}
+.li_text{
+    margin-right: 50px;
+}
+
+
+.main_new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content: space-around; */
+}
+
+.rm_text {
+    width: 33%;
+    margin-left: 20px;
+}
+.text__small {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 165%;
+/* or 21px */
+
+
+/* Text */
+
+color: #2A2A2A;
+
+}
+.text__big {
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+
+/* Text */
+
+color: #2A2A2A;
+}
+.text__medium {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 165%;
+    /* or 25px */
+
+
+    /* Text */
+
+    color: #2A2A2A;
+}
+.text__small_info {
+    margin-left: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 165%;
+/* or 21px */
+
+
+/* Text */
+
+color: #2A2A2A;
+
+opacity: 0.7;
+}
+.main_new_mini{
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.extra_news {
+    display: flex;
+    justify-content: center;
+    background: #0C359D;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* align-content: space-around; */
+    width: 80%;
+    margin-top: 3%;
+    height: 80px;
+    margin-left: 10%;
+}
+
+.extra_news > a:visited{
+    color: #0447F3;
+}
+.extra_news > a{
+    background-color: white;
+    border-radius: 2px;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0447F3;
+}
+
+.news__span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
